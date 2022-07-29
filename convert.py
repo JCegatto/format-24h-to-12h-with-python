@@ -18,7 +18,7 @@ while True:
         else:
             break
     except:
-        print('Formato de hora errado, tente novamente. ')
+        print('Formato de hora invalido, tente novamente. ')
 
 periodo=convertHoras(hora)
 if hora>12:
